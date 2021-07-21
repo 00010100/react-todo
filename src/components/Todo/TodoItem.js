@@ -18,6 +18,7 @@ function TodoItem({ items, index, onLines, removeToggle }) {
               <input
                 type="checkbox"
                 onChange={() => onLines(items.id)}
+                checked={items.completed}
                 className="larger"
               />
               <span style={{ marginLeft: '20px' }}>{index + 1}</span>
