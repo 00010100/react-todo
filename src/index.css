@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+}
+
+.navbar__link {
+  text-decoration: none;
+  font-size: 30px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+.todo__list {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.line {
+  text-decoration: line-through;
+}
+
+.todo-item {
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+}
+
+.date {
+  font-size: 17px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.todo-info {
+  display: flex;
+  align-items: center;
+}
+
+input.larger {
+  width: 20px;
+  height: 20px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.input-heroes {
+  width: 40%;
+}
+
+.filter-button {
+  font-size: 18px;
+}
+
+.btn-register {
+  font-size: 25px;
+}
+
+.modal-content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-body {
+  margin: 18% auto;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+}
+
+.form-email {
+  display: block;
+  font-size: 15px;
+}
+
+h2 {
+  position: relative;
+  top: -10px;
+  color: red;
+}
+
+.autocompleted {
+  position: absolute;
+  left: 0.5%;
+  top: 116px;
+  width: 33.6%;
+  background-color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+  max-height: 240px;
+  height: auto;
+  display: block;
+  overflow: auto;
+  box-shadow: 1px 1px 4px #000;
+}
+
+.autocompleted__item {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.autocompleted__item:hover {
+  background: rgb(180, 180, 180);
+  cursor: pointer;
+  transition: cubic-bezier(1, 0, 0, 1) 0.3s all;
+}
